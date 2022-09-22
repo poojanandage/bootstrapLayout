@@ -1,0 +1,13 @@
+
+.contactForm a:link,.contactForm a:visited{
+    text-decoration: none;
+}
+.contactForm .email{
+    color: #000;
+}
+.contactForm .mobile{
+    color: #000;
+}
+.contactForm .card{
+    transform: none!important;
+}

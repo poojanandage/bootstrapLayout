@@ -1,0 +1,31 @@
+.aboutImg{
+    background-image: url(../images/lights.jpg);
+    position: relative;
+}
+.cardInfo i{
+    font-size: 46px;
+}
+.card{
+    transition: all .5s ease-in-out;
+}
+.card:hover{
+    transform: translateY(-20px) scale(1.002);
+}
+
+.test .owl-carousel i{
+    font-size: 30px;
+}
+
+/* .test .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    left: -70px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.test .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+} */

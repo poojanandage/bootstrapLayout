@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/aboutus.css">
+    <link rel="stylesheet" href="assets/css/services.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- ============Section navbar============== -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blogs.html">Blog</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <main>
+
+                 <!-- ============Section HomeImage============== -->
+       <section id="aboutImg"class="aboutImg py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center text-white">
+              <h3>Services</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus quidem officiis quod. Error ea voluptate repellat temporibus! Quas animi odit, sed blanditiis vel nulla, vero sunt eligendi repellendus, magni eaque?</p>
+            </div>
+          </div>
+        </div>
+       </section>
+
+                 <!-- ============Section contactInfo============== -->
+
+                 <section class="contactForm py-5" id="contactForm">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card py-3">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Get In Touch</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus eveniet at esse? Beatae, sit assumenda vitae accusantium, exercitationem accusamus dicta voluptatem aperiam inventore sequi neque! Ab sed quae ducimus.</p>
+
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Address</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, debitis </p>
+
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Email</h3>
+                                    <a href="mailto:nandagepoo1234@gmail.com" target="_blank">
+                                        <p class="card-text email">nandagepoo1234@gmail.com</p>
+                                    </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Contact</h3>
+                                    <a href="tel:+7675432546">
+                                        <p class="card-text mobile">7675432546</p>
+                                    </a>
+                                    </div>
+                                    
+                                </div>
+    
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card py-4">
+                                    <div class="card-body">
+                                        <h2 class="card-title">Please fill out this form to contact us</h2>
+                                        <hr>
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" name="" id=""placeholder="First Name" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" name="" id=""placeholder="Last Name" class="form-control"required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" name="" id=""placeholder="Email" class="form-control"required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="number" name="" id=""placeholder="Contact number" class="form-control"required>
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="row"> -->
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                        <textarea name="messages" id="" cols="30" rows="10"class="form-control">Messages</textarea>
+                                                         </div>
+                                                         <div class="form-group">
+                                                           <input type="submit" value="Submit"class="btn btn-outline-danger d-block form-control">
+
+                                                        </div>
+                                                    </div>
+                                                   
+                                                <!-- </div> -->
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+        <!--=================section Our staff=============== -->
+        <section class="bg-dark py-5 staff text-center text-white"id="staff">
+            <div class="container">
+                <div class="row">
+                    <div class="col mb-4">
+                        <h1>Our Staff</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <figure>
+                            <img src="assets/images/person1.jpg" alt="staff img 1" class="rounded-circle img-fluid mb-1">
+                            <figcaption>
+                                <h3>Jen Doe</h3>
+                                <p>Marketing Manager</p>
+                            </figcaption>
+                        </figure>
+                       </div>
+                    <div class="col-md-3">
+
+                        <figure>
+                            <img src="assets/images/person2.jpg" alt="staff img 1" class="rounded-circle img-fluid mb-1">
+                            <figcaption>
+                                <h3>Jully Doe</h3>
+                                <p>Marketing Manager</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-3">
+
+                        <figure>
+                            <img src="assets/images/person3.jpg" alt="staff img 1" class="rounded-circle img-fluid mb-1">
+                            <figcaption>
+                                <h3>Jon Doe</h3>
+                                <p>Marketing Manager</p>
+                            </figcaption>
+                        </figure>
+                        </div>
+                    <div class="col-md-3">
+
+                        <figure>
+                            <img src="assets/images/person4.jpg" alt="staff img 1" class="rounded-circle img-fluid mb-1">
+                            <figcaption>
+                                <h3>Jony Doe</h3>
+                                <p>Marketing Manager</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+       
+        <!--=================section Footer=============== -->
+  <section class="footer py-4 bg-black text-white text-center" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+              <h6>
+              copyright 2020 <i class="fa fa-copyright"></i> The Ultimators Coders
+              </h6>
+        </div>
+      </div>
+    </div>
+   </section>
+   </main>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="assets/js/app.js"></script>
+</body>
+</html>
